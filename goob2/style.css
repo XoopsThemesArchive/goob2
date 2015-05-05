@@ -1,0 +1,121 @@
+body {color: #000000; background-color: #F7F8FA; margin: 0; padding: 0;}
+html { scrollbar-face-color: #C000C0; scrollbar-highlight-color: #FF00FF; scrollbar-shadow-color: #081621; scrollbar-3dlight-color: #000000; scrollbar-arrow-color: #000000; scrollbar-track-color: #575757; scrollbar-darkshadow-color: #000000;}
+
+<!---header width---->
+
+table {width: 95%; margin: 0; padding: 0; font-size: small}
+table td { padding: 0; border-width: 0; font-family: OCR A Extended, sans-serif; font-size: small;}
+
+a {color: #000000; text-decoration: underline; font-weight: normal;}
+a:hover {color: #FF0000; background-color: #FDDFFD;}
+
+fieldset {border-color: #CCCCCC;}
+
+h1 { }
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+ul { margin: 2px; padding: 2px; list-style: decimal inside; text-align: left;}
+li { margin-left: 2px; list-style: square inside; color: #969494;}
+
+
+.item {}
+.itempic {text-align: center; background-image: url(topicBG.gif);}
+.itemHead {height: 18px; padding: 3px; color: #717B85;}
+.itemInfo {text-align: center; padding: 3px;}
+.itemTitle a {font-size: small; font-weight: normal; font-variant: small-caps; color: #000000; background-color: transparent;}
+.itemPoster {font-size: 90%; font-family: OCR A Extended, sans-serif; color: #969494;}
+.itemPostDate {font-size: 90%; font-style:italic; font-family: OCR A Extended, sans-serif; color: #969494;}
+.itemStats {font-size: 90%; font-style:italic;}
+.itemBody {font-family: OCR A Extended, sans-serif; background-image: url(newscellBG.jpg); background-repeat: no-repeat; font-size: small;}
+.itemText {margin-top: 5px; margin-bottom: 5px; line-height: 1.5em; font-family: OCR A Extended, sans-serif; font-size: small; }
+.itemText:first-letter {font-size: 133%; font-weight: bold; color: #800080;}
+.itemFoot {text-align: right; padding: 3px; }
+.itemAdminLink {font-size: 90%;}
+.itemPermaLink {font-size: 90%; font-style:italic;}
+
+th {color: #000000; padding : 2px; vertical-align : middle; font-family: OCR A Extended, Helvetica, sans-serif;}
+
+td#headerbanner {width: 95%; background-color: #171A21; vertical-align: middle; text-align:center;}
+td#headerbar {border-bottom: 1px solid #dddddd;}
+
+<!------Left Column----->
+
+td#leftcolumn {width: 180px; font-size:x-small;}
+td#leftcolumn th {color: #717B85; }
+td#leftcolumn div.blockTitle {padding: 3px; background-color: transparent; color: #717B85; font-weight: bold;
+font-size: small;}
+td#leftcolumn div.blockContent {text-align: left; padding: 3px; line-height: 120%; line-height: 120%;
+font-size: x-small;}
+
+
+td#centercolumn {font-size: small;}
+
+td#centercolumn th {color: #000000; vertical-align: middle; }
+td#centerCcolumn {padding: 0px 3px 1px 3px; }
+td#centerCcolumn legend.blockTitle {padding: 3px; color: #B5B3B3; font-weight: bold; margin-top: 0px; margin-right: 0px;  margin-left: 0px;}
+td#centerCcolumn div.blockContent {padding: 3px; margin-right: 0px;  margin-left: 0px; margin-bottom: 2px; line-height: 120%;}
+
+td#centerLcolumn {width: 50%; padding: 0px 3px 0px 0px;}
+td#centerLcolumn legend.blockTitle {padding: 3px; color: #B5B3B3; font-weight: bold; margin-top: 0px;}
+td#centerLcolumn div.blockContent {padding: 3px; margin-left: 3px; margin-right: 2px; margin-bottom: 2px; line-height: 120%;}
+
+td#centerRcolumn {width: 50%; padding: 0px 3px 0px 0px;}
+td#centerRcolumn legend.blockTitle {padding: 3px; color: #B5B3B3; font-weight: bold; margin-top: 0px; margin-right: 0px;  margin-left: 0px;}
+td#centerRcolumn div.blockContent {padding: 3px; margin-left: 2px; margin-right: 3px; margin-bottom: 2px; line-height: 120%;}
+
+div#content {text-align: left; padding: 8px;}
+
+td#rightcolumn {width: 180px; font-size:small;}
+td#rightcolumn th {color: #000000; vertical-align: middle;}
+td#rightcolumn div.blockTitle {padding: 3px; background-color: transparent; color: #717B85; font-weight: bold;}
+td#rightcolumn div.blockContent {padding: 3px; line-height: 120%;
+font-size: x-small;
+font-family: OCR A Extended, sans-serif;}
+
+tr#footerbar {text-align:center;
+font-family: OCR A Extended, sans-serif;
+font-size: x-small;
+color: #c0c0c0;}
+
+td#mainmenu a {display: block; margin: 0; padding: 4px;}
+td#mainmenu a:hover {}
+td#mainmenu a.menuTop {font-size: small; padding-left: 3px;}
+td#mainmenu a.menuMain {font-size: small; padding-left: 3px;}
+td#mainmenu a.menuSub {color: #969494; background-color: #ffffff; padding-left: 3px;}
+td#usermenu a {font-size: small; display: block; margin: 0; padding: 4px;}
+td#usermenu a:hover {}
+td#usermenu a.menuTop {font-size: small;}
+td#usermenu a.highlight {}
+
+
+
+.outer {background-color: #F1F1F1; width: 95%;}
+.head {background-color: #DBDBDB; vertical-align: top; padding: 5px; font-weight: bold;}
+.even {background-color: #DBDBDB; padding: 5px;}
+.odd {background-color: #F1F1F1; vertical-align: top; padding: 5px;}
+.foot {background-color: #ABB5B7; padding: 5px; font-weight: bold;}
+tr.even td {background-color: #DBDBDB; padding: 5px;}
+tr.odd td {background-color: #F1F1F1; padding: 5px;}
+
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: x-small;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: x-small;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: x-small;}
+
+div.xoopsCode { background: #FFFBFF; border: 1px inset #424242; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+div.xoopsQuote { border: 1px inset #D3D8D4; background-color: #FFFBFF; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+
+
+.comTitle { font-weight: bold; margin-bottom: 2px;}
+.comText { padding: 2px;}
+.comUserStat {  vertical-align: top; font-size: x-small; color: #404040; font-weight:bold; border: 1px solid #082941; margin: 2px; padding: 2px;}
+.comUserStatCaption { font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: x-small; color: #ff0000; font-weight:bold; font-size: small;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: x-small;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {font-size: 21px;}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
